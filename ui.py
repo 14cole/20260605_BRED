@@ -319,88 +319,96 @@ ABOUT_TEXT = (
     "slab in dB (accounts for both reflection and transmission)."
 )
 
+# --- Freddy Krueger palette ---------------------------------------------
+# Built around the user's two signature colors: dark green #273c1d (the
+# sweater green / surface base) and blood red #661111 (selection, borders,
+# accents), with bone-cream text and a red/green "sweater stripe" layer set.
+#
+# LIGHT_THEME = a grimy "daytime" variant on aged-paper backgrounds.
+# DARK_THEME  = the iconic nightmare look on near-black green backgrounds.
+
 LIGHT_THEME = {
-    "window_bg": "#f5f6f8",
-    "panel_bg": "#f5f6f8",
-    "text": "#1f2933",
-    "muted_text": "#4b5563",
-    "field_bg": "#ffffff",
-    "field_fg": "#111827",
-    "field_disabled_bg": "#e5e7eb",
-    "field_disabled_fg": "#6b7280",
-    "button_bg": "#e5e7eb",
-    "button_active_bg": "#d1d5db",
-    "selection_bg": "#2563eb",
-    "selection_fg": "#ffffff",
-    "accent": "#2563eb",
-    "preview_bg": "#f7f7f7",
-    "preview_border": "#b0b0b0",
-    "preview_outline": "#3a3a3a",
-    "preview_text": "#404040",
-    "preview_empty": "#5a5a5a",
-    "preview_layer_text": "#1f1f1f",
-    "preview_layer_border": "#ffffff",
+    "window_bg": "#e7e3d4",
+    "panel_bg": "#e7e3d4",
+    "text": "#241a17",
+    "muted_text": "#5c5648",
+    "field_bg": "#f4f1e6",
+    "field_fg": "#1f1712",
+    "field_disabled_bg": "#d8d3c2",
+    "field_disabled_fg": "#8a8474",
+    "button_bg": "#d6d0bd",
+    "button_active_bg": "#c3bca5",
+    "selection_bg": "#661111",
+    "selection_fg": "#f4f1e6",
+    "accent": "#661111",
+    "preview_bg": "#efece0",
+    "preview_border": "#273c1d",
+    "preview_outline": "#4a4636",
+    "preview_text": "#3a3528",
+    "preview_empty": "#6c6553",
+    "preview_layer_text": "#1f1a12",
+    "preview_layer_border": "#efece0",
     "layer_colors": [
-        "#89c2ff",
-        "#ffd166",
-        "#90d39a",
-        "#f4a6a6",
-        "#c9b6ff",
-        "#7fd8d8",
-        "#ffb570",
-        "#c2d36b",
+        "#a83a2a",
+        "#5b7a3c",
+        "#c75a4a",
+        "#7d9a52",
+        "#8a2020",
+        "#3f5e2a",
+        "#d98c6a",
+        "#9bb56a",
     ],
-    "plot_bg": "#ffffff",
-    "plot_axes_bg": "#ffffff",
-    "plot_text": "#1f2933",
-    "plot_spine": "#6b7280",
-    "plot_grid": "#cbd5e1",
-    "plot_line_freq": "#0b5fff",
-    "plot_line_angle": "#d84f2a",
-    "plot_worst": "#dc2626",
-    "plot_crosshair": "#ffffff",
+    "plot_bg": "#f4f1e6",
+    "plot_axes_bg": "#faf8ef",
+    "plot_text": "#241a17",
+    "plot_spine": "#5c5648",
+    "plot_grid": "#cfc9b5",
+    "plot_line_freq": "#8a1414",
+    "plot_line_angle": "#4d7c2f",
+    "plot_worst": "#b01e1e",
+    "plot_crosshair": "#241a17",
 }
 
 DARK_THEME = {
-    "window_bg": "#1f2430",
-    "panel_bg": "#1f2430",
-    "text": "#e5e7eb",
-    "muted_text": "#9ca3af",
-    "field_bg": "#111827",
-    "field_fg": "#f9fafb",
-    "field_disabled_bg": "#1f2937",
-    "field_disabled_fg": "#6b7280",
-    "button_bg": "#374151",
-    "button_active_bg": "#4b5563",
-    "selection_bg": "#1d4ed8",
-    "selection_fg": "#f9fafb",
-    "accent": "#60a5fa",
-    "preview_bg": "#0f172a",
-    "preview_border": "#475569",
-    "preview_outline": "#94a3b8",
-    "preview_text": "#cbd5e1",
-    "preview_empty": "#94a3b8",
-    "preview_layer_text": "#f8fafc",
-    "preview_layer_border": "#111827",
+    "window_bg": "#16210f",
+    "panel_bg": "#243a1c",
+    "text": "#e7dfc8",
+    "muted_text": "#9aa384",
+    "field_bg": "#101a0a",
+    "field_fg": "#f1ead4",
+    "field_disabled_bg": "#1c2b13",
+    "field_disabled_fg": "#6f7558",
+    "button_bg": "#2f4a24",
+    "button_active_bg": "#661111",
+    "selection_bg": "#661111",
+    "selection_fg": "#f1ead4",
+    "accent": "#a01e1e",
+    "preview_bg": "#101a0a",
+    "preview_border": "#661111",
+    "preview_outline": "#a0a07a",
+    "preview_text": "#d7cfb4",
+    "preview_empty": "#8a8568",
+    "preview_layer_text": "#f5efdc",
+    "preview_layer_border": "#101a0a",
     "layer_colors": [
-        "#1d4ed8",
-        "#b45309",
-        "#166534",
-        "#b91c1c",
-        "#6d28d9",
-        "#0f766e",
-        "#9a3412",
-        "#4d7c0f",
+        "#661111",
+        "#2f4a24",
+        "#8a2020",
+        "#3f5e2a",
+        "#4a0d0d",
+        "#1f3015",
+        "#a83a2a",
+        "#567a38",
     ],
-    "plot_bg": "#111827",
-    "plot_axes_bg": "#1f2937",
-    "plot_text": "#e5e7eb",
-    "plot_spine": "#94a3b8",
-    "plot_grid": "#475569",
-    "plot_line_freq": "#60a5fa",
-    "plot_line_angle": "#fb923c",
-    "plot_worst": "#ef4444",
-    "plot_crosshair": "#e5e7eb",
+    "plot_bg": "#101a0a",
+    "plot_axes_bg": "#16210f",
+    "plot_text": "#d7cfb4",
+    "plot_spine": "#8a8568",
+    "plot_grid": "#2f4022",
+    "plot_line_freq": "#c0392b",
+    "plot_line_angle": "#7fae4f",
+    "plot_worst": "#e23b2e",
+    "plot_crosshair": "#e7dfc8",
 }
 
 HEATMAP_METRIC_OPTIONS = [
@@ -839,10 +847,10 @@ class ImpedanceGui(QMainWindow):
         self.inv_score_mode_var = StringVar(INVERSE_SCORE_MODE_OPTIONS[0])
         self.inv_refine_var = BooleanVar(True)
         self.inv_seed_var = StringVar("")
-        self.dark_mode_var = BooleanVar(False)
+        self.dark_mode_var = BooleanVar(True)
         self.project_path: Path | None = None
         self.inverse_candidates: list[InverseCandidate] = []
-        self._colors = LIGHT_THEME
+        self._colors = DARK_THEME
 
         # Plot objects are created in _build_ui(). Initialize here so early callbacks are safe.
         self.fig = None
@@ -2108,7 +2116,7 @@ class ImpedanceGui(QMainWindow):
             mid = (y + yn) * 0.5
 
             if layer.is_sheet:
-                pen = QPen(QColor(colors.get("accent", "#cc4444")))
+                pen = QPen(QColor(colors.get("accent", "#661111")))
                 pen.setWidth(2)
                 pen.setStyle(Qt.CustomDashLine)
                 pen.setDashPattern([6, 3])
